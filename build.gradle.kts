@@ -17,11 +17,3 @@ dependencies {
 tasks.getByName<Test>("test") {
     useJUnitPlatform()
 }
-
-sourceSets {
-    named("main") {
-        resources {
-            srcDir("src/main/resources")
-        }
-    }
-}
